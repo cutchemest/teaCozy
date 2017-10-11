@@ -4,7 +4,12 @@
 	color: seashell;
 	background-color: black;
 	font-weight: bold;
-	
+	opacity: 0.9;
+}
+
+.downtown{
+	width: 300px;
+	height: 300px;
 }
 
 header{
@@ -34,6 +39,31 @@ header{
 	z-index: 2;
 	text-align: center;
 	
+}
+
+.locationContainer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.location{
+	display: block;
+	height: 500px;
+	width: 75%;
+	margin: 0 auto;
+	
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.location h2{
+	background-color: transparent;
+	text-align: center;
+	padding-top: 40px;
 }
 
 
