@@ -3,7 +3,7 @@
 	font-size: 22px;
 	color: seashell;
 	background-color: black;
-	opacity: 0.9;
+	font-weight: bold;
 	
 }
 
@@ -13,6 +13,30 @@ header{
 	height: 69px;
 	position: fixed;
 	border-bottom: 1px solid seashell;
+	z-index: 5;
+}
+
+.landing{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 700px;
+	width: 100%;
+}
+
+.landingBanner{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 1200px;
+	position: absolute;
+	z-index: 2;
+	text-align: center;
+	
+}
+
+.landingBanner span{
+	
 }
 
 .logo img{
