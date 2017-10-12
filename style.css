@@ -4,7 +4,7 @@
 	color: seashell;
 	background-color: black;
 	font-weight: bold;
-	opacity: 0.9;
+	
 }
 
 .downtown{
@@ -51,13 +51,19 @@ header{
 .location{
 	display: block;
 	height: 500px;
-	width: 75%;
+	width: 90%;
 	margin: 0 auto;
-	
 	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+}
+
+.townContainer{
+	display: flex;
+	justify-content: center;
+	background: transparent;
+	
 }
 
 .location h2{
@@ -121,4 +127,14 @@ nav{
 
 .teaSelection p{
 	margin-top: 10px;
+}
+
+
+
+.towns{
+	margin: 0 40px;
+	background-color: black;
+	width: 300px;
+	height: 300px;
+	
 }
