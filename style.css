@@ -9,6 +9,7 @@
 	opacity: 0.9
 }
 
+
 /* Heading styling */
 
 header{
@@ -178,4 +179,24 @@ footer{
 .copy p{
 	display: flex;
 	margin-left: 20px;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+
+/* Nav link styling */
+.navLinks a:link{
+	color: seashell;
+}
+
+.navLinks a:visited{
+	color: seashell;
+}
+
+/* Contact link styling */
+.footContact a:link{
+	color: seashell;
+}
+
+.footContact a:visited{
+	color: seashell;
 }
